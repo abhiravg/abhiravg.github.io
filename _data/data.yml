@@ -69,7 +69,7 @@ experiences:
       company: Oracle, Bengaluru, India
       details: |
         - ALCM: Lead developer to enhance robustness of lifecycle operations of the Java based monitoring agent. Result \- 100% success rate in the completion of any lifecycle task and essentially became a fire-and-forget operation for the end-user.
-        \n Robustness parameters achieved: Re-entrant execution, fault tolerance against network or host restart issues, enhanced error handling, enhanced ALCM microservice (REST API redesign for scalability, efficiency).
+            Robustness parameters achieved: Re-entrant execution, fault tolerance against network or host restart issues, enhanced error handling, enhanced ALCM microservice (REST API redesign for scalability, efficiency).
         - DBdesign: Designed new schema as per multi-tenant database requirements, including hash based partitions and indexing. Achieved a 3x improvement in data retrieval speed.
         - Dockerized ALCM: Owner/initiator of containerized lifecycle operations for the containerized monitoring Agent. Developed one click solution to deploy 100s of containerized Agents, in parallel, on VMs instead of manually deploying one Agent at a time.
         - DirCompare: Designed and developed an in-house directory comparison tool in Python. Improved software packaging and footprint by 50% by eliminating redundant/outdated components from the software bundle using the said DirCompare tool.

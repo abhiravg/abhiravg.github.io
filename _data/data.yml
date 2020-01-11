@@ -144,8 +144,13 @@ projects:
 skills:
     title: Skills #&amp; Proficiency
     
-    - type: Programming
-      howmany: "Java, Python"
+    toolset:
+      - type: Programming
+        names: "Java, Python"
+      - type: Frameworks & Libraries
+        names: "JavaEE, Django"
+      - type: Misc
+        names: "Jira, Confluence, Consul, MS Office"
    
 
 footer: >

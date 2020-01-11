@@ -51,6 +51,7 @@ career-profile:
       scalable and efficient, infrastructure and applications monitoring solutions. My core expertise lies in building Java 
       based RESTful web-services and client side scripting. I’m fascinated by the world of AI and want to establish myself as
       a Machine Learning Engineer/Researcher.
+
 education:
     - degree: MS in Computer Science
       university: University of Wisconsin - Madison
@@ -68,33 +69,34 @@ experiences:
       time: 2017 - 2019
       company: Oracle, Bengaluru, India
       details: |
-        - ALCM: Lead developer to enhance robustness of lifecycle operations of the Java based monitoring agent. Result \- 
+        - **ALCM**: Lead developer to **enhance** robustness of **lifecycle operations** of the **Java based monitoring agent**. Result \- 
         100% success rate in the completion of any lifecycle task and essentially became a fire-and-forget operation for the 
         end-user.
             - Robustness parameters achieved: Re-entrant execution, fault tolerance against network or host restart issues, 
-            enhanced error handling, enhanced ALCM microservice (REST API redesign for scalability, efficiency).
-        - DBdesign: Designed new schema as per multi-tenant database requirements, including hash based partitions and 
-        indexing. Achieved a 3x improvement in data retrieval speed.
-        - Dockerized ALCM: Owner/initiator of containerized lifecycle operations for the containerized monitoring Agent. 
+            enhanced error handling, enhanced ALCM microservice (**REST API redesign** for scalability, efficiency).
+        - **DBdesign**: Designed **new schema** as per **multi-tenant database** requirements, including **hash based partitions** and 
+        **indexing**. Achieved a 3x improvement in data retrieval speed.
+        - **Dockerized ALCM**: Owner/initiator of **containerized lifecycle operations** for the containerized monitoring Agent. 
         Developed one click solution to deploy 100s of containerized Agents, in parallel, on VMs instead of manually deploying 
         one Agent at a time.
-        - DirCompare: Designed and developed an in-house directory comparison tool in Python. Improved software packaging and 
+        - **DirCompare**: Designed and developed an **in-house directory comparison tool in Python**. Improved software packaging and 
         footprint by 50% by eliminating redundant/outdated components from the software bundle using the said DirCompare tool.
     - role: Software Engineer Intern
       time: Jan 2017 - Jun 2017
       company: Retailio, Mumbai, India
       details: |
-        - Scraping: Created Python based data scrapers using beautifulsoup4 and requests. Used Selenium for web browser 
+        - **Scraping**: Created Python based **data scrapers** using **beautifulsoup4 and requests**. Used **Selenium** for web browser 
         automation. Collected data of 260,000 pharmacies in India from various websites.
-        - MDM: Developed REST APIs for Master Data Management tool using Django.
-        - DevOps: Managed AWS deployments using Python scripts. Helped save costs by powering down non-essential compute
+        - **MDM**: Developed **REST APIs** for Master Data Management tool using **Django**.
+        - **DevOps**: Managed **AWS** deployments using Python scripts. Helped save costs by powering down non-essential compute
         instances at night.
     - role: Summer Intern
       time: May 2015 - Jul 2015
       company: Atomic Energy Regulatory Board, Mumbai, India
       details: |
-        - MVC Webapp: Designed and developed Java web app to log courier packages going to and fro from an organisation. 
-        Technologies: Struts, Hibernate ORM, MySQL.
+        - **MVC Webapp**: Designed and developed Java web app to log courier packages going to and fro from an organisation. 
+        Technologies: **Struts, Hibernate ORM, MySQL**.
+
 projects:
     title: Projects
     intro: >
@@ -109,17 +111,13 @@ projects:
         link: "#"
         tagline: "Developed tool to detect hand gestures in a video and translate to text. Terms: Histogram of gradients, SVC, Random Forrest Classifier. Accuracy: 85%"
 
-      - title: Tempo
+      - title: Feature Selection Algorithm
         link: "#"
-        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
+        tagline: "Designed and developed a new global feature selection algorithm. Achieved 10% better accuracy than Chi Square (CHI) on datasets like 20NewsGroups, Reuters."
 
-      - title: Atom
+      - title: VLIW Architecture
         link: "#"
-        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
-
-      - title: Delta
-        link: "#"
-        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+        tagline: "Designed an architecture with given assembly level instruction set. Designed Write Through LRU Counter Cache Memory with given specifications. Performed simulations and evaluated results using ModelSim (Verilog) software."
 
 # publications:
 #     title: Publications
@@ -145,25 +143,8 @@ projects:
 
 skills:
     title: Skills &amp; Proficiency
-
-    toolset:
-      - name: Python & Django
-        level: 98%
-
-      - name: Javascript & jQuery
-        level: 98%
-
-      - name: Angular
-        level: 98%
-
-      - name: HTML5 & CSS
-        level: 95%
-
-      - name: Ruby on Rails
-        level: 85%
-
-      - name: Sketch & Photoshop
-        level: 60%
+    
+    **Programming**:
 
 footer: >
     Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>

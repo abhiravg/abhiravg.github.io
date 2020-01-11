@@ -9,12 +9,12 @@ sidebar:
     # Profile information
     name: Abhirav Gholba
     tagline: Software Developer
-    avatar: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
+    avatar: profile.jpg  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
     # Sidebar links
     email: abhirav.gholba@wisc.edu
     phone: # 012 345 6789
-    website: blog.webjeda.com #do not add http://
+    website: # blog.webjeda.com #do not add http://
     linkedin: agholba
     github: abhiravg
     gitlab:
@@ -47,39 +47,26 @@ sidebar:
 career-profile:
     title: Career Profile
     summary: |
-      Summarise your career here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. You can [download this free resume/CV template here]().
-      Aenean commodo ligula eget dolor aenean massa. Cum sociis natoque
-      penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-      Donec quam felis, ultricies nec, pellentesque eu.
-      Second paragraph if required.
+      A budding software developer with 2 years of industry experience in Cloud Computing with a focus on developing robust, 
+      scalable and efficient, infrastructure and applications monitoring solutions. My core expertise lies in building Java 
+      based RESTful web-services and client side scripting. I’m fascinated by the world of AI and want to establish myself as
+      a Machine Learning Engineer/Researcher.
 education:
-    - degree: MSc in Computer Science
-      university: University of London
-      time: 2011 - 2012
+    - degree: MS in Computer Science
+      university: University of Wisconsin - Madison
+      time: 2019 - 2021
       details: |
-        Describe your study here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-        sociis natoque penatibus et magnis dis parturient montes, nascetur
-        ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-        pretium quis, sem.
-          - Bullet point
-          - Bullet point
-    - degree: BSc in Applied Mathematics
-      university: Bristol University
-      time: 2007 - 2011
+          - Fall 2019: Machine Learning, Image Processing, Security and Privacy in Data Science
+          - Spring 2020: Operating Systems, Mathematical Foundations of Machine Learning
+    - degree: BE(Hons.) in Computer Science
+      university: Birla Institute of Technology and Science, Pilani - Goa Campus
+      time: 2013 - 2017
       details: |
-        Describe your study here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-        sociis natoque penatibus et magnis dis parturient montes, nascetur
-        ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-        pretium quis, sem.
-          - Bullet point
-          - Bullet point
+        
 experiences:
-    - role: Lead Developer
-      time: 2015 - Present
-      company: Startup Hubs, San Francisco
+    - role: Member of Technical Staff
+      time: 2017 - 2019
+      company: Oracle, Bengaluru, India
       details: |
         Describe your role here lorem ipsum dolor sit amet, consectetuer
         adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.

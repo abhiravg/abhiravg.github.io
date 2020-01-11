@@ -36,13 +36,16 @@ sidebar:
 
     interests:
       - item: Singing
-        link: 
+        link: https://www.youtube.com/watch?v=yNEjKkfIMKM
 
       - item: Hiking
         link:
 
       - item: Cooking
         link:
+        
+      - item: Tech
+        link: 
 
 career-profile:
     title: Career Summary
@@ -55,7 +58,7 @@ career-profile:
 education:
     - degree: MS in Computer Science
       university: University of Wisconsin - Madison
-      time: 2019 - 2021
+      time: 2019 - Exp. May 2021
       details: |
           - **Fall 2019**: Machine Learning, Image Processing, Security and Privacy in Data Science
           - **Spring 2020**: Operating Systems, Mathematical Foundations of Machine Learning
@@ -145,12 +148,12 @@ skills:
     title: Skills #&amp; Proficiency
     
     toolset:
-      - type: Programming
-        names: "Java, Python"
-      - type: Frameworks & Libraries
-        names: "JavaEE, Django"
+      - type: Programming Languages
+        names: "Java, Python, Perl, C, Bash, Windows Batch, HTML, JavaScript, SQL, PL/SQL"
+      - type: Tools & Frameworks
+        names: "JavaEE, Django, Spring boot, Struts, Hibernate, Redis, Oracle, MySQL, PostgreSQL, Docker, numpy, pandas"
       - type: Misc
-        names: "Jira, Confluence, Consul, MS Office"
+        names: "Linux, Git, Jira, Confluence, Consul, MS Office"
    
 
 footer: >

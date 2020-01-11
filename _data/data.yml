@@ -142,9 +142,11 @@ projects:
 #         conference: "Comm. ACM 4 (1961), 51–55"
 
 skills:
-    title: Skills &amp; Proficiency
+    title: Skills #&amp; Proficiency
     
-    **Programming**:-
+    - type: Programming
+      howmany: "Java, Python"
+   
 
 footer: >
     Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>

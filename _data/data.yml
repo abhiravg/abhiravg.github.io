@@ -107,8 +107,7 @@ projects:
 
       - title: Sign Language Translation
         link: "#"
-        tagline: "Developed tool to detect hand gestures in a video and translate to text. Terms\: Histogram of gradients, 
-        SVC, Random Forrest Classifier. Accuracy \: 85%"
+        tagline: "Developed tool to detect hand gestures in a video and translate to text. Terms: Histogram of gradients, SVC, Random Forrest Classifier. Accuracy: 85%"
 
       - title: Tempo
         link: "#"

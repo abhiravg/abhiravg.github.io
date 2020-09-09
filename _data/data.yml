@@ -55,7 +55,7 @@ career-profile:
 
 education:
     - degree: MS in Computer Science
-      university: University of Wisconsin - Madison, GPA\: 3.50/4.00
+      university: University of Wisconsin - Madison, GPA 3.50/4.00
       time: 2019 - Exp. May 2021
       details: |
           - **Fall 2019**: Machine Learning, Image Processing, Security and Privacy in Data Science
@@ -63,7 +63,7 @@ education:
           - **Fall 2020**: Advanced Operating System, Big Data Systems, Advanced Deep Learning
           
     - degree: BE(Hons.) in Computer Science
-      university: Birla Institute of Technology and Science, Pilani - Goa Campus, GPA\: 7.98/10.00
+      university: Birla Institute of Technology and Science, Pilani - Goa Campus, GPA 7.98/10.00
       time: 2013 - 2017
       details: |
         

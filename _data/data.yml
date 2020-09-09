@@ -50,26 +50,37 @@ sidebar:
 career-profile:
     title: Career Summary
     summary: |
-      A budding software developer with 2 years of industry experience in Cloud Computing with a focus on developing robust, 
-      scalable and efficient, infrastructure and applications monitoring solutions. My core expertise lies in building Java 
-      based RESTful web-services and client side scripting. I’m fascinated by the world of AI and want to establish myself as
-      a Machine Learning Engineer/Researcher.
+      A data-centric engineer, skilled at building robust, efficient and scalable applications and data pipelines for Cloud.
+      Areas of interest\: Data Science and Engineering, Machine Learning and AI, Cloud Platform Development. 
 
 education:
     - degree: MS in Computer Science
       university: University of Wisconsin - Madison
       time: 2019 - Exp. May 2021
-      details: |
+      details: | GPA 3.50/4.00
           - **Fall 2019**: Machine Learning, Image Processing, Security and Privacy in Data Science
-          - **Spring 2020**: Operating Systems, Mathematical Foundations of Machine Learning
+          - **Spring 2020**: Operating Systems, Data Management for Machine Learning
+          - **Fall 2020**: Advanced Operating System, Big Data Systems, Advanced Deep Learning
+          
     - degree: BE(Hons.) in Computer Science
       university: Birla Institute of Technology and Science, Pilani - Goa Campus
       time: 2013 - 2017
-      details: |
+      details: | GPA 7.98/10.00
         
 experiences:
+    - role: Data Science Engineer Intern
+      time: May 2020 - Aug 2020
+      company: American Family Insurance, Madison, WI
+      details: |
+        - **ETL**: Worked on migrating an **Extract Transform Load (ETL)** pipeline for a predictive model from AWS to GCP. Designed and developed
+        the ETL pipeline on GCP. \
+        GCP: **Python, BigQuery, Apache Airflow** AWS: **PySpark, Hadoop, AWS EMR, AWS Athena, AWS Glue**.
+        - **Docker**: Migrate the **containerized predictive model** from **AWS ECR to GCP GCR**. Change all references from AWS to GCP and migrate 
+        all other dependencies like configurations etc. Test end to end execution of the pipeline and the model inference and, 
+        publish results for business consumption.
+        
     - role: Member of Technical Staff
-      time: 2017 - 2019
+      time: Jul 2017 - May 2019
       company: Oracle, Bengaluru, India
       details: |
         - **ALCM**: Lead developer to **enhance** robustness of **lifecycle operations** of the **Java based monitoring agent**. Result \- 
@@ -77,13 +88,14 @@ experiences:
         end-user.
             - Robustness parameters achieved: Re-entrant execution, fault tolerance against network or host restart issues, 
             enhanced error handling, enhanced ALCM microservice (**REST API redesign** for scalability, efficiency).
-        - **DBdesign**: Designed **new schema** as per **multi-tenant database** requirements, including **hash based partitions** and 
+        - **DBdesign**: Modified existing schema as per **multi-tenant database** requirements, added **hash based partitions** and 
         **indexing**. Achieved a 3x improvement in data retrieval speed.
         - **Dockerized ALCM**: Owner/initiator of **containerized lifecycle operations** for the containerized monitoring Agent. 
         Developed one click solution to deploy 100s of containerized Agents, in parallel, on VMs instead of manually deploying 
         one Agent at a time.
         - **DirCompare**: Designed and developed an **in-house directory comparison tool in Python**. Improved software packaging and 
         footprint by 50% by eliminating redundant/outdated components from the software bundle using the said DirCompare tool.
+        
     - role: Software Engineer Intern
       time: Jan 2017 - Jun 2017
       company: Retailio, Mumbai, India
@@ -93,6 +105,7 @@ experiences:
         - **MDM**: Developed **REST APIs** for Master Data Management tool using **Django**.
         - **DevOps**: Managed **AWS** deployments using Python scripts. Helped save costs by powering down non-essential compute
         instances at night.
+        
     - role: Summer Intern
       time: May 2015 - Jul 2015
       company: Atomic Energy Regulatory Board, Mumbai, India
@@ -105,6 +118,11 @@ projects:
     intro: >
       
     assignments:
+      - title: Multiplex
+        link: "https://github.com/jungerm2/multiplex"
+        tagline: "Configurations manager. Built using  argparse and configurator as part of Data Management in ML course. Features: dynamically generated CLI, 
+        hierarchical configurations, custom config store."
+        
       - title: Adversarial ML
         link: "#"
         tagline: "Successfully implemented decision based adversarial attacks against speech-to-text models like Mozilla’s 
@@ -151,9 +169,11 @@ skills:
       - type: Programming Languages
         names: "Java, Python, Perl, C, Bash, Windows Batch, HTML, JavaScript, SQL, PL/SQL"
       - type: Tools & Frameworks
-        names: "JavaEE, Django, Spring boot, Struts, Hibernate, Redis, Oracle, MySQL, PostgreSQL, Docker, numpy, pandas"
+        names: "JavaEE, Django, Spring boot, Struts, Hibernate, Redis, Oracle, MySQL, PostgreSQL, Docker, NumPy, Pandas, scikit-learn, Docker, PySpark, Hadoop"
+      - type: Cloud Technologies
+        names: "GCP BigQuery, Apache Airflow, GCS, GCR, AWS S3, AWS Athena, AWS EMR, AWS Glue"
       - type: Misc
-        names: "Linux, Git, Jira, Confluence, Consul, MS Office"
+        names: "Linux, Windows, Git, Jira, Confluence, MS Office"
    
 
 footer: >

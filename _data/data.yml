@@ -55,12 +55,13 @@ career-profile:
 
 education:
     - degree: MS in Computer Science
-      university: University of Wisconsin - Madison, GPA 3.50/4.00
+      university: University of Wisconsin - Madison, GPA 3.68/4.00
       time: 2019 - Exp. May 2021
       details: |
           - **Fall 2019**: Machine Learning, Image Processing, Security and Privacy in Data Science
           - **Spring 2020**: Operating Systems, Data Management for Machine Learning
           - **Fall 2020**: Advanced Operating System, Big Data Systems, Advanced Deep Learning
+          - **Spring 2021**: Introduction to Computer Security
           
     - degree: BE(Hons.) in Computer Science
       university: Birla Institute of Technology and Science, Pilani - Goa Campus, GPA 7.98/10.00
@@ -69,9 +70,10 @@ education:
         
 experiences:
     - role: Data Science Engineer Intern
-      time: May 2020 - Aug 2020
+      time: May 2020 - Aug 2020, Jan 2021 - Present
       company: American Family Insurance, Madison, WI
       details: |
+        - **Serverless**: Cloud run service for Data transformation for in-house analytics engine.
         - **ETL**: Worked on migrating an **Extract Transform Load (ETL)** pipeline for a predictive model from AWS to GCP. Designed and developed
         the ETL pipeline on GCP. \
         GCP: **Python, BigQuery, Apache Airflow** AWS: **PySpark, Hadoop, AWS EMR, AWS Athena, AWS Glue**.
@@ -118,6 +120,23 @@ projects:
     intro: >
       
     assignments:
+      - title: AllReduce
+        link: "https://github.com/smohan25/CS744-Project"
+        tagline: "Efficient AllReduce implementation using Pytorch DDP (Distributed Data Parallel) with Gloo backend. Implemented Ring, Tree, Butterfly
+        and Recursive Doubling and Halving topologies with sparse communication (COO format). Proved that Ring is optimal for dense tensors but for sparse tensors,
+        you can have a variety of answers depending on the size of the tensor and the network bandwidth."
+        
+      - title: Active Learning with Weak Supervision
+        link: "https://github.com/nkannan97/WeaklySupervised_ActiveLearning"
+        tagline: "Combined Active Learning with Weak Supervision to form a novel semi-supervised method. Tested on sentiment analysis with on IMDb and YELP datasets
+        and came to the following conclusion Supervised Learning >= Active Learning > Active Weak Learning (our method) > Weak Supervision. 
+        Terms&#58; Scikit-learn, Pandas, Snorkel, Active Learning, Weak Supervision."
+        
+      - title: eBPF
+        link: "https://github.com/abhiravg/demystifying_zoom"
+        tagline: "Tracing and profiling of Zoom Video Conf app using bpftrace. We were able to figure out the list of syscalls, their frequencies and based on that
+        analyze the behavior of the Zoom client under various conditions. Project as part of Adv. Operating Systems course in Fall 2020."
+        
       - title: Multiplex
         link: "https://github.com/jungerm2/multiplex"
         tagline: "Configurations manager. Built using  argparse and configurator as part of Data Management in ML course. Features: dynamically generated CLI, 
@@ -129,11 +148,11 @@ projects:
         DeepSpeech."
 
       - title: Sign Language Translation
-        link: "#"
+        link: "https://github.com/abhiravg/sign-language-detector"
         tagline: "Developed tool to detect hand gestures in a video and translate to text. Terms: Histogram of gradients, SVC, Random Forrest Classifier. Accuracy: 85%"
 
       - title: Feature Selection Algorithm
-        link: "#"
+        link: "https://github.com/abhiravg/CMFS-Feature-Selection"
         tagline: "Designed and developed a new global feature selection algorithm. Achieved 10% better accuracy than Chi Square (CHI) on datasets like 20NewsGroups, Reuters."
 
       - title: VLIW Architecture
@@ -171,7 +190,7 @@ skills:
       - type: Tools & Frameworks
         names: "JavaEE, Django, Spring boot, Struts, Hibernate, Redis, Oracle, MySQL, PostgreSQL, Docker, NumPy, Pandas, scikit-learn, Docker, PySpark, Hadoop"
       - type: Cloud Technologies
-        names: "GCP BigQuery, Apache Airflow, GCS, GCR, AWS S3, AWS Athena, AWS EMR, AWS Glue"
+        names: "GCP Cloud Run, GCP BigQuery, Apache Airflow, GCS, GCR, AWS S3, AWS Athena, AWS EMR, AWS Glue"
       - type: Misc
         names: "Linux, Windows, Git, Jira, Confluence, MS Office"
    

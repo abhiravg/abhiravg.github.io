@@ -12,7 +12,7 @@ sidebar:
     avatar: profile.jpg  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
     # Sidebar links
-    email: abhirav.gholba@wisc.edu
+    email: abhirav.gholba@gmail.com
     phone: # 012 345 6789
     website: # blog.webjeda.com #do not add http://
     linkedin: agholba
@@ -73,6 +73,9 @@ experiences:
       time: May 2020 - Aug 2020, Jan 2021 - Present
       company: American Family Insurance, Madison, WI
       details: |
+        - **SQL Templating**: Develop framework to template SQLs to make them re-usable. YAML config files and SQL templating with f-strings.
+        - **Ingestion**: Data ingestion pipeline with Terabytes of ingestion from various raw sources into BigQuery. Apache Airflow for workflow management. 
+        Gitlab CI/CD and Terraform for infrastructure as code.
         - **Serverless**: Cloud run service for Data transformation for in-house analytics engine.
         - **ETL**: Worked on migrating an **Extract Transform Load (ETL)** pipeline for a predictive model from AWS to GCP. Designed and developed
         the ETL pipeline on GCP. \
@@ -186,13 +189,14 @@ skills:
     
     toolset:
       - type: Programming Languages
-        names: "Java, Python, Perl, C, Bash, Windows Batch, HTML, JavaScript, SQL, PL/SQL"
+        names: "Java, Python, Go, Perl, C, Bash, Windows Batch, HTML, CSS, JavaScript, SQL, PL/SQL"
       - type: Tools & Frameworks
-        names: "JavaEE, Django, Spring boot, Struts, Hibernate, Redis, Oracle, MySQL, PostgreSQL, Docker, NumPy, Pandas, scikit-learn, Docker, PySpark, Hadoop"
+        names: "JavaEE, Django, Spring boot, Struts, Hibernate, Redis, Oracle, MySQL, PostgreSQL, Docker, NumPy, Pandas, scikit-learn, Docker, Kubernetes, 
+        Spark, Hadoop, MapReduce"
       - type: Cloud Technologies
         names: "GCP Cloud Run, GCP BigQuery, Apache Airflow, GCS, GCR, AWS S3, AWS Athena, AWS EMR, AWS Glue"
       - type: Misc
-        names: "Linux, Windows, Git, Jira, Confluence, MS Office"
+        names: "Gitlab CI/CD, Linux, Windows, Git, Jira, Confluence, MS Office"
    
 
 footer: >

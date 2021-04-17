@@ -74,8 +74,8 @@ experiences:
       company: American Family Insurance, Madison, WI
       details: |
         - **SQL Templating**: Develop framework to template SQLs to make them re-usable. YAML config files and SQL templating with f-strings.
-        - **Ingestion**: Data ingestion pipeline with Terabytes of ingestion from various raw sources into BigQuery. Apache Airflow for workflow management. 
-        Gitlab CI/CD and Terraform for infrastructure as code.
+        - **Ingestion**: Data ingestion pipeline with Terabytes of ingestion from various raw sources into BigQuery. **Apache Airflow** for workflow management. 
+        **Gitlab CI/CD** and **Terraform** for infrastructure as code.
         - **Serverless**: Cloud run service for Data transformation for in-house analytics engine.
         - **ETL**: Worked on migrating an **Extract Transform Load (ETL)** pipeline for a predictive model from AWS to GCP. Designed and developed
         the ETL pipeline on GCP. \

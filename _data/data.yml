@@ -69,7 +69,7 @@ education:
       details: |
         
 experiences:
-    - role: Data Science Engineer Intern
+    - role: Data Engineer Intern
       time: May 2020 - Aug 2020, Jan 2021 - Present
       company: American Family Insurance, Madison, WI
       details: |
@@ -84,7 +84,7 @@ experiences:
         all other dependencies like configurations etc. Test end to end execution of the pipeline and the model inference and, 
         publish results for business consumption.
         
-    - role: Member of Technical Staff
+    - role: Software Engineer
       time: Jul 2017 - May 2019
       company: Oracle, Bengaluru, India
       details: |
@@ -111,7 +111,7 @@ experiences:
         - **DevOps**: Managed **AWS** deployments using Python scripts. Helped save costs by powering down non-essential compute
         instances at night.
         
-    - role: Summer Intern
+    - role: Software Engineer Intern
       time: May 2015 - Jul 2015
       company: Atomic Energy Regulatory Board, Mumbai, India
       details: |
